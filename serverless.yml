@@ -8,9 +8,9 @@ provider:
   profile: serverless
 
 functions:
-  currentTime:
-    handler: handler.endpoint
+  is-alive:
+    handler: is-alive.isAlive
     events:
       - http:
-          path: ping
+          path: johnny5
           method: get

@@ -1,10 +1,10 @@
 {
   "name": "sls-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example demonstrates how to setup a simple HTTP GET endpoint",
   "author": "Aaron Sisler",
   "license": "MIT",
   "scripts": {
-    "deploy": "sls deploy"
+    "deploy": "sls deploy --force"
   }
 }
